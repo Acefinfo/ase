@@ -1,0 +1,10 @@
+E:\C#\dotnet_form\dotnet_form\bin\Debug\dotnet_form.exe.config
+E:\C#\dotnet_form\dotnet_form\bin\Debug\dotnet_form.exe
+E:\C#\dotnet_form\dotnet_form\bin\Debug\dotnet_form.pdb
+E:\C#\dotnet_form\dotnet_form\obj\Debug\dotnet_form.csproj.AssemblyReference.cache
+E:\C#\dotnet_form\dotnet_form\obj\Debug\dotnet_form.Form1.resources
+E:\C#\dotnet_form\dotnet_form\obj\Debug\dotnet_form.Properties.Resources.resources
+E:\C#\dotnet_form\dotnet_form\obj\Debug\dotnet_form.csproj.GenerateResource.cache
+E:\C#\dotnet_form\dotnet_form\obj\Debug\dotnet_form.csproj.CoreCompileInputs.cache
+E:\C#\dotnet_form\dotnet_form\obj\Debug\dotnet_form.exe
+E:\C#\dotnet_form\dotnet_form\obj\Debug\dotnet_form.pdb
