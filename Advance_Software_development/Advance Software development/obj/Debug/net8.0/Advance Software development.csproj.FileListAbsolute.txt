@@ -1,0 +1,14 @@
+E:\C#\Advance Software development\Advance Software development\bin\Debug\net8.0\Advance Software development.exe
+E:\C#\Advance Software development\Advance Software development\bin\Debug\net8.0\Advance Software development.deps.json
+E:\C#\Advance Software development\Advance Software development\bin\Debug\net8.0\Advance Software development.runtimeconfig.json
+E:\C#\Advance Software development\Advance Software development\bin\Debug\net8.0\Advance Software development.dll
+E:\C#\Advance Software development\Advance Software development\bin\Debug\net8.0\Advance Software development.pdb
+E:\C#\Advance Software development\Advance Software development\obj\Debug\net8.0\Advance Software development.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\Advance Software development\Advance Software development\obj\Debug\net8.0\Advance Software development.AssemblyInfoInputs.cache
+E:\C#\Advance Software development\Advance Software development\obj\Debug\net8.0\Advance Software development.AssemblyInfo.cs
+E:\C#\Advance Software development\Advance Software development\obj\Debug\net8.0\Advance Software development.csproj.CoreCompileInputs.cache
+E:\C#\Advance Software development\Advance Software development\obj\Debug\net8.0\Advance Software development.dll
+E:\C#\Advance Software development\Advance Software development\obj\Debug\net8.0\refint\Advance Software development.dll
+E:\C#\Advance Software development\Advance Software development\obj\Debug\net8.0\Advance Software development.pdb
+E:\C#\Advance Software development\Advance Software development\obj\Debug\net8.0\Advance Software development.genruntimeconfig.cache
+E:\C#\Advance Software development\Advance Software development\obj\Debug\net8.0\ref\Advance Software development.dll
