@@ -1,0 +1,11 @@
+E:\C#\Search_shape\Search_shape\bin\Debug\Search_shape.exe.config
+E:\C#\Search_shape\Search_shape\bin\Debug\Search_shape.exe
+E:\C#\Search_shape\Search_shape\bin\Debug\Search_shape.pdb
+E:\C#\Search_shape\Search_shape\obj\Debug\Search_shape.csproj.AssemblyReference.cache
+E:\C#\Search_shape\Search_shape\obj\Debug\Search_shape.Form1.resources
+E:\C#\Search_shape\Search_shape\obj\Debug\Search_shape.Properties.Resources.resources
+E:\C#\Search_shape\Search_shape\obj\Debug\Search_shape.csproj.GenerateResource.cache
+E:\C#\Search_shape\Search_shape\obj\Debug\Search_shape.csproj.CoreCompileInputs.cache
+E:\C#\Search_shape\Search_shape\obj\Debug\Search_shape.exe
+E:\C#\Search_shape\Search_shape\obj\Debug\Search_shape.pdb
+E:\C#\Search_shape\Search_shape\obj\Debug\Search_shape.exe.config
