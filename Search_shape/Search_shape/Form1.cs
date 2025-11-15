@@ -7,10 +7,7 @@ namespace Search_shape
 {
     public partial class Form1 : Form
     {
-        // Declare global variables to store the shape and color
-        private string shapeType = "";
-        private Color shapeColor1 = Color.Empty;  // First color
-        private Color shapeColor2 = Color.Empty;  // Second color (for gradient)
+        private ShapeBase shape; // Current shape object
 
         public Form1()
         {
@@ -19,7 +16,7 @@ namespace Search_shape
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            
+            // Not needed for now
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -39,107 +36,80 @@ namespace Search_shape
                 return;
             }
 
-            shapeType = parts[0].Trim().ToLower(); // Store shape type
-            string color1 = parts[1].Trim().ToLower(); // Store first color
-            string color2 = parts.Length == 3 ? parts[2].Trim().ToLower() : null; // Store second color (if present)
+            string shapeType = parts[0].Trim().ToLower();
+            string color1Name = parts[1].Trim().ToLower();
+            string color2Name = parts.Length == 3 ? parts[2].Trim().ToLower() : null;
+
+            Color color1, color2 = Color.Empty;
 
             try
             {
-                // Try to convert color1 and color2 to Color objects
-                shapeColor1 = Color.FromName(color1);
-                if (shapeColor1 == Color.Empty)
+                color1 = Color.FromName(color1Name);
+                if (color1 == Color.Empty)
                 {
-                    MessageBox.Show("Invalid color name. Please insert a valid color name for the first color.");
+                    MessageBox.Show("Invalid first color name.");
                     return;
                 }
 
-                if (color2 != null)
+                if (!string.IsNullOrEmpty(color2Name))
                 {
-                    shapeColor2 = Color.FromName(color2);
-                    if (shapeColor2 == Color.Empty)
+                    color2 = Color.FromName(color2Name);
+                    if (color2 == Color.Empty)
                     {
-                        MessageBox.Show("Invalid color name. Please insert a valid color name for the second color.");
+                        MessageBox.Show("Invalid second color name.");
                         return;
                     }
-                }
-                else
-                {
-                    shapeColor2 = Color.Empty;  // No second color, so reset the second color
                 }
             }
             catch
             {
-                MessageBox.Show("Invalid color name. Please insert valid color names.");
-                return; // Exit the method if color is invalid
+                MessageBox.Show("Error parsing colors.");
+                return;
             }
 
-            label1.Invalidate(); // Invalidate to trigger a redraw of the label
-            label1.Paint += (paintSender, paintE) => DrawShape(paintE.Graphics); // Renamed parameters
+            // Create the shape object based on type
+            switch (shapeType)
+            {
+                case "circle":
+                    shape = new CircleShape("circle", color1, color2);
+                    break;
+                case "square":
+                    shape = new SquareShape("square", color1, color2);
+                    break;
+                case "rectangle":
+                    shape = new RectangleShape("rectangle", color1, color2);
+                    break;
+                case "triangle":
+                    shape = new TriangleShape("triangle", color1, color2);
+                    break;
+                default:
+                    MessageBox.Show("Shape not recognized. Enter 'circle', 'square', 'rectangle', or 'triangle'.");
+                    return;
+            }
+
+            // Redraw label with the new shape
+            label1.Invalidate();
+            label1.Paint += Label1_Paint;
+        }
+
+        private void Label1_Paint(object sender, PaintEventArgs e)
+        {
+            if (shape != null)
+            {
+                shape.Draw(e.Graphics);
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            // Reset the shape and color variables
-            shapeType = "";
-            shapeColor1 = Color.Empty;
-            shapeColor2 = Color.Empty;
-
-            // Clear the label by forcing a redraw with no shape
-            label1.Invalidate();
-
-            // Clear the text box
-            textBox1.Clear();
+            shape = null; // Clear current shape
+            label1.Invalidate(); // Redraw label empty
+            textBox1.Clear(); // Clear text box
         }
 
-        // Method to draw the shape on the label
-        private void DrawShape(Graphics g)
+        private void Form1_Load(object sender, EventArgs e)
         {
-            g.Clear(label1.BackColor); // Clear previous drawings
-
-            if (string.IsNullOrEmpty(shapeType) || shapeColor1 == Color.Empty)
-            {
-                return; // Do nothing if no shape or color is defined
-            }
-
-            Brush brush = null;
-
-            // If there are two colors (for gradient)
-            if (shapeColor2 != Color.Empty)
-            {
-                // Use a LinearGradientBrush if two colors are specified
-                brush = new LinearGradientBrush(
-                    new Rectangle(50, 50, 150, 150), shapeColor1, shapeColor2, LinearGradientMode.ForwardDiagonal);
-            }
-            else
-            {
-                // Use a SolidBrush if only one color is specified
-                brush = new SolidBrush(shapeColor1);
-            }
-
-            // Draw the shape based on the shapeType
-            switch (shapeType)
-            {
-                case "circle":
-                    g.FillEllipse(brush, new Rectangle(50, 50, 150, 150));
-                    break;
-                case "square":
-                    g.FillRectangle(brush, new Rectangle(50, 50, 150, 150));
-                    break;
-                case "triangle":
-                    Point[] points = {
-                        new Point(125, 50),
-                        new Point(50, 200),
-                        new Point(200, 200)
-                    };
-                    g.FillPolygon(brush, points);
-                    break;
-                case "rectangle":
-                    g.FillRectangle(brush, new Rectangle(50, 50, 200, 100));
-                    break;
-                default:
-                    MessageBox.Show("Shape not recognized. Please enter 'rectangle', 'circle', 'square', or 'triangle'.");
-                    break;
-            }
+            // Optional initialization
         }
     }
 }
