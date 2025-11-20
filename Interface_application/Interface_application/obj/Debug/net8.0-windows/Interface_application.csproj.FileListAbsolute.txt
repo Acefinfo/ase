@@ -1,0 +1,17 @@
+E:\C#\Interface_application\Interface_application\bin\Debug\net8.0-windows\Interface_application.exe
+E:\C#\Interface_application\Interface_application\bin\Debug\net8.0-windows\Interface_application.deps.json
+E:\C#\Interface_application\Interface_application\bin\Debug\net8.0-windows\Interface_application.runtimeconfig.json
+E:\C#\Interface_application\Interface_application\bin\Debug\net8.0-windows\Interface_application.dll
+E:\C#\Interface_application\Interface_application\bin\Debug\net8.0-windows\Interface_application.pdb
+E:\C#\Interface_application\Interface_application\obj\Debug\net8.0-windows\Interface_application.Form1.resources
+E:\C#\Interface_application\Interface_application\obj\Debug\net8.0-windows\Interface_application.csproj.GenerateResource.cache
+E:\C#\Interface_application\Interface_application\obj\Debug\net8.0-windows\Interface_application.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\Interface_application\Interface_application\obj\Debug\net8.0-windows\Interface_application.AssemblyInfoInputs.cache
+E:\C#\Interface_application\Interface_application\obj\Debug\net8.0-windows\Interface_application.AssemblyInfo.cs
+E:\C#\Interface_application\Interface_application\obj\Debug\net8.0-windows\Interface_application.csproj.CoreCompileInputs.cache
+E:\C#\Interface_application\Interface_application\obj\Debug\net8.0-windows\Interface_application.sourcelink.json
+E:\C#\Interface_application\Interface_application\obj\Debug\net8.0-windows\Interface_application.dll
+E:\C#\Interface_application\Interface_application\obj\Debug\net8.0-windows\refint\Interface_application.dll
+E:\C#\Interface_application\Interface_application\obj\Debug\net8.0-windows\Interface_application.pdb
+E:\C#\Interface_application\Interface_application\obj\Debug\net8.0-windows\Interface_application.genruntimeconfig.cache
+E:\C#\Interface_application\Interface_application\obj\Debug\net8.0-windows\ref\Interface_application.dll
