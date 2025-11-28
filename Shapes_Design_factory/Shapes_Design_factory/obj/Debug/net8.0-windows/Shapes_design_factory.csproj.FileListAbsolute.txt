@@ -1,0 +1,17 @@
+E:\C#\Shapes_Design_factory\Shapes_design_factory\obj\Debug\net8.0-windows\Shapes_design_factory.Form1.resources
+E:\C#\Shapes_Design_factory\Shapes_design_factory\obj\Debug\net8.0-windows\Shapes_design_factory.csproj.GenerateResource.cache
+E:\C#\Shapes_Design_factory\Shapes_design_factory\obj\Debug\net8.0-windows\Shapes_design_factory.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\Shapes_Design_factory\Shapes_design_factory\obj\Debug\net8.0-windows\Shapes_design_factory.AssemblyInfoInputs.cache
+E:\C#\Shapes_Design_factory\Shapes_design_factory\obj\Debug\net8.0-windows\Shapes_design_factory.AssemblyInfo.cs
+E:\C#\Shapes_Design_factory\Shapes_design_factory\obj\Debug\net8.0-windows\Shapes_design_factory.csproj.CoreCompileInputs.cache
+E:\C#\Shapes_Design_factory\Shapes_design_factory\obj\Debug\net8.0-windows\Shapes_design_factory.sourcelink.json
+E:\C#\Shapes_Design_factory\Shapes_design_factory\bin\Debug\net8.0-windows\Shapes_design_factory.exe
+E:\C#\Shapes_Design_factory\Shapes_design_factory\bin\Debug\net8.0-windows\Shapes_design_factory.deps.json
+E:\C#\Shapes_Design_factory\Shapes_design_factory\bin\Debug\net8.0-windows\Shapes_design_factory.runtimeconfig.json
+E:\C#\Shapes_Design_factory\Shapes_design_factory\bin\Debug\net8.0-windows\Shapes_design_factory.dll
+E:\C#\Shapes_Design_factory\Shapes_design_factory\bin\Debug\net8.0-windows\Shapes_design_factory.pdb
+E:\C#\Shapes_Design_factory\Shapes_design_factory\obj\Debug\net8.0-windows\Shapes_design_factory.dll
+E:\C#\Shapes_Design_factory\Shapes_design_factory\obj\Debug\net8.0-windows\refint\Shapes_design_factory.dll
+E:\C#\Shapes_Design_factory\Shapes_design_factory\obj\Debug\net8.0-windows\Shapes_design_factory.pdb
+E:\C#\Shapes_Design_factory\Shapes_design_factory\obj\Debug\net8.0-windows\Shapes_design_factory.genruntimeconfig.cache
+E:\C#\Shapes_Design_factory\Shapes_design_factory\obj\Debug\net8.0-windows\ref\Shapes_design_factory.dll
