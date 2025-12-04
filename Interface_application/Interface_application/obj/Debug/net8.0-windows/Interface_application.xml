@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Interface_application</name>
+    </assembly>
+    <members>
+        <member name="T:Interface_application.Circle">
+            <summary>
+            Represents a drawable circle shape that inherits from the <see cref="T:Interface_application.Shapes"/> base class.
+            Allows setting its position and drawing it on a graphics surface.
+            </summary>
+        </member>
+        <member name="F:Interface_application.Circle.x">
+            <summary>
+            The X-coordinate of the center of the circle.
+            </summary>
+        </member>
+        <member name="F:Interface_application.Circle.y">
+            <summary>
+            The Y-coordinate of the center of the circle.
+            </summary>
+        </member>
+        <member name="F:Interface_application.Circle.size">
+            <summary>
+            The radius of the circle (constant size).
+            </summary>
+        </member>
+        <member name="M:Interface_application.Circle.SetPosition(System.Int32,System.Int32)">
+            <summary>
+            Sets the position of the circle on the drawing surface.
+            </summary>
+            <param name="x">The X-coordinate of the circle's center.</param>
+            <param name="y">The Y-coordinate of the circle's center.</param>
+        </member>
+        <member name="M:Interface_application.Circle.Draw(System.Drawing.Graphics,System.Drawing.Pen)">
+            <summary>
+            Draws the circle on the provided graphics surface using the specified pen.
+            </summary>
+            <param name="g">The graphics object used to draw the circle.</param>
+            <param name="myPen">The pen used to outline the circle.</param>
+        </member>
+        <member name="M:Interface_application.Circle.ToString">
+            <summary>
+            Returns a string representation of the circle, including its position and size.
+            </summary>
+            <returns>A string describing the circle's properties.</returns>
+        </member>
+        <member name="T:Interface_application.Form1">
+            <summary>
+            Main application form responsible for displaying and drawing graphical shapes.
+            </summary>
+        </member>
+        <member name="F:Interface_application.Form1.c">
+            <summary>
+            Circle instance used for drawing on the form.
+            </summary>
+        </member>
+        <member name="M:Interface_application.Form1.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Interface_application.Form1"/> class
+            and sets up the circle object.
+            </summary>
+        </member>
+        <member name="M:Interface_application.Form1.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            Handles all custom drawing operations for the form.
+            This method is triggered automatically whenever the form needs repainting.
+            </summary>
+            <param name="e">
+            Contains the graphics context used for drawing.
+            </param>
+        </member>
+        <member name="F:Interface_application.Form1.components">
+            <summary>
+             Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Interface_application.Form1.Dispose(System.Boolean)">
+            <summary>
+             Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Interface_application.Form1.InitializeComponent">
+            <summary>
+             Required method for Designer support - do not modify
+             the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Interface_application.Program.Main">
+            <summary>
+             The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:Interface_application.Shapes">
+            <summary>
+            Defines the basic structure and behavior required for drawable shapes,
+            including setting their position, drawing them, and returning a textual description.
+            </summary>
+        </member>
+        <member name="M:Interface_application.Shapes.SetPosition(System.Int32,System.Int32)">
+            <summary>
+            Sets the position of the shape on the drawing surface.
+            </summary>
+            <param name="x">The X-coordinate of the shape.</param>
+            <param name="y">The Y-coordinate of the shape.</param>
+        </member>
+        <member name="M:Interface_application.Shapes.Draw(System.Drawing.Graphics,System.Drawing.Pen)">
+            <summary>
+            Draws the shape on the given graphics surface using the provided pen.
+            </summary>
+            <param name="g">The graphics object used to draw the shape.</param>
+            <param name="myPen">The pen used to outline the shape.</param>
+        </member>
+        <member name="M:Interface_application.Shapes.ToString">
+            <summary>
+            Returns a textual description of the shape.
+            </summary>
+            <returns>A string describing the shape.</returns>
+        </member>
+        <member name="T:Interface_application.ApplicationConfiguration">
+            <summary>
+             Bootstrap the application configuration.
+            </summary>
+        </member>
+        <member name="M:Interface_application.ApplicationConfiguration.Initialize">
+            <summary>
+             Bootstrap the application as follows:
+             <code>
+             global::System.Windows.Forms.Application.EnableVisualStyles();
+             global::System.Windows.Forms.Application.SetCompatibleTextRenderingDefault(false);
+             global::System.Windows.Forms.Application.SetHighDpiMode(HighDpiMode.SystemAware);
+            </code>
+            </summary>
+        </member>
+    </members>
+</doc>
