@@ -1,0 +1,15 @@
+E:\C#\ConsoleApp_Cicle\ConsoleApp_Cicle\bin\Debug\net8.0\ConsoleApp_Cicle.exe
+E:\C#\ConsoleApp_Cicle\ConsoleApp_Cicle\bin\Debug\net8.0\ConsoleApp_Cicle.deps.json
+E:\C#\ConsoleApp_Cicle\ConsoleApp_Cicle\bin\Debug\net8.0\ConsoleApp_Cicle.runtimeconfig.json
+E:\C#\ConsoleApp_Cicle\ConsoleApp_Cicle\bin\Debug\net8.0\ConsoleApp_Cicle.dll
+E:\C#\ConsoleApp_Cicle\ConsoleApp_Cicle\bin\Debug\net8.0\ConsoleApp_Cicle.pdb
+E:\C#\ConsoleApp_Cicle\ConsoleApp_Cicle\obj\Debug\net8.0\ConsoleApp_Cicle.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\ConsoleApp_Cicle\ConsoleApp_Cicle\obj\Debug\net8.0\ConsoleApp_Cicle.AssemblyInfoInputs.cache
+E:\C#\ConsoleApp_Cicle\ConsoleApp_Cicle\obj\Debug\net8.0\ConsoleApp_Cicle.AssemblyInfo.cs
+E:\C#\ConsoleApp_Cicle\ConsoleApp_Cicle\obj\Debug\net8.0\ConsoleApp_Cicle.csproj.CoreCompileInputs.cache
+E:\C#\ConsoleApp_Cicle\ConsoleApp_Cicle\obj\Debug\net8.0\ConsoleApp_Cicle.sourcelink.json
+E:\C#\ConsoleApp_Cicle\ConsoleApp_Cicle\obj\Debug\net8.0\ConsoleApp_Cicle.dll
+E:\C#\ConsoleApp_Cicle\ConsoleApp_Cicle\obj\Debug\net8.0\refint\ConsoleApp_Cicle.dll
+E:\C#\ConsoleApp_Cicle\ConsoleApp_Cicle\obj\Debug\net8.0\ConsoleApp_Cicle.pdb
+E:\C#\ConsoleApp_Cicle\ConsoleApp_Cicle\obj\Debug\net8.0\ConsoleApp_Cicle.genruntimeconfig.cache
+E:\C#\ConsoleApp_Cicle\ConsoleApp_Cicle\obj\Debug\net8.0\ref\ConsoleApp_Cicle.dll

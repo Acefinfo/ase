@@ -1,0 +1,15 @@
+E:\C#\ConsoleApp_Cicle\ConsoleApp_Cicle\bin\Debug\net8.0\Inheritance_example1_Circle.exe
+E:\C#\ConsoleApp_Cicle\ConsoleApp_Cicle\bin\Debug\net8.0\Inheritance_example1_Circle.deps.json
+E:\C#\ConsoleApp_Cicle\ConsoleApp_Cicle\bin\Debug\net8.0\Inheritance_example1_Circle.runtimeconfig.json
+E:\C#\ConsoleApp_Cicle\ConsoleApp_Cicle\bin\Debug\net8.0\Inheritance_example1_Circle.dll
+E:\C#\ConsoleApp_Cicle\ConsoleApp_Cicle\bin\Debug\net8.0\Inheritance_example1_Circle.pdb
+E:\C#\ConsoleApp_Cicle\ConsoleApp_Cicle\obj\Debug\net8.0\Inheritance_example1_Circle.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\ConsoleApp_Cicle\ConsoleApp_Cicle\obj\Debug\net8.0\Inheritance_example1_Circle.AssemblyInfoInputs.cache
+E:\C#\ConsoleApp_Cicle\ConsoleApp_Cicle\obj\Debug\net8.0\Inheritance_example1_Circle.AssemblyInfo.cs
+E:\C#\ConsoleApp_Cicle\ConsoleApp_Cicle\obj\Debug\net8.0\Inheritance_example1_Circle.csproj.CoreCompileInputs.cache
+E:\C#\ConsoleApp_Cicle\ConsoleApp_Cicle\obj\Debug\net8.0\Inheritance_example1_Circle.sourcelink.json
+E:\C#\ConsoleApp_Cicle\ConsoleApp_Cicle\obj\Debug\net8.0\Inheritance_example1_Circle.dll
+E:\C#\ConsoleApp_Cicle\ConsoleApp_Cicle\obj\Debug\net8.0\refint\Inheritance_example1_Circle.dll
+E:\C#\ConsoleApp_Cicle\ConsoleApp_Cicle\obj\Debug\net8.0\Inheritance_example1_Circle.pdb
+E:\C#\ConsoleApp_Cicle\ConsoleApp_Cicle\obj\Debug\net8.0\Inheritance_example1_Circle.genruntimeconfig.cache
+E:\C#\ConsoleApp_Cicle\ConsoleApp_Cicle\obj\Debug\net8.0\ref\Inheritance_example1_Circle.dll
